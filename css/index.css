@@ -145,7 +145,8 @@
   background-color: #F7F7F7;
   display: flex;
   flex-wrap: wrap;
-  height: 250px;
+  /* height: 250px; */
+  height: 100%;
   justify-content: center;
   margin-top: 40px;
 }
@@ -200,29 +201,31 @@
 
 @media only screen and (max-width: 768px) {
   .homepage-logo {
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    text-align: center;
     width: 300px;
   }
 
   .horizontal-line {
     text-align: center;
-    margin-left: 260px;
+    /* margin-left: 260px; */
   }
 
   .hp-p1 {
     font-size: 12px;
-    margin-left: 110px;
+    /* margin-left: 110px; */
+    text-align: center;
     width: 400px;
   }
 
   .hp-p2 {
     font-size: 12px;
-    margin-left: 110px;
+    /* margin-left: 110px; */
     width: 400px;
   }
 
   .vertical-line {
-    margin-left: 300px;
+    /* margin-left: 300px; */
     margin-top: 90px;
     text-align: center;
 
@@ -230,25 +233,25 @@
 
   .hiw-title {
     font-size: 30px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     width: 100%;
   }
 
   .steps {
-    margin-left: 180px;
+    /* margin-left: 180px; */
   }
 
   .pin {
-    margin-right: 190px;
+    margin-right: 300px;
   }
 
   .daily-inspo {
-    margin-left: 220px;
+    /* margin-left: 220px; */
   }
 
   .fp-1 {
     margin-bottom: 10px;
-    margin-left: 150px;
+    text-align: center;
   }
 
   .fp-p3 {
@@ -263,6 +266,7 @@
 
   .footer {
     width: 100%;
+    height: 100%;
   }
 }
 
