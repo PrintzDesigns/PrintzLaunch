@@ -1,3 +1,11 @@
+html {
+  clip: auto;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
 .tp-1 {
   color: #000;
   font-family: TimesNewRomanPS;

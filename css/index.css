@@ -135,7 +135,7 @@
   color: #000;
   font-family: 'HELVETICA NEUE', sans-serif;
   font-size: 20px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
   margin-top: 60px;
   text-align: center;
 }
@@ -144,6 +144,7 @@
   background-color: #F7F7F7;
   display: flex;
   flex-wrap: wrap;
+  height: 250px;
   justify-content: center;
   margin-top: 20px;
 }
@@ -164,6 +165,7 @@
   line-height: 32px;
   margin: auto;
   margin-bottom: 20px;
+  margin-top: 35px;
   text-align: center;
 }
 
@@ -189,6 +191,10 @@
   margin-left: 110px;
   text-align: left;
   text-decoration: underline;
+}
+
+.lightwidget-widget {
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -239,10 +245,6 @@
     margin-left: 220px;
   }
 
-  body {
-    width: 100%;
-  }
-
   .fp-1 {
     margin-bottom: 10px;
     margin-left: 150px;
@@ -256,7 +258,10 @@
 
   .fp-5 {
     margin-left: 100px;
+  }
 
+  .footer {
+    width: 100%;
   }
 }
 
