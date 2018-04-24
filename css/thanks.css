@@ -1,10 +1,10 @@
-html {
+/* html {
   clip: auto;
   height: 100%;
   overflow: hidden;
   position: absolute;
   width: 100%;
-}
+} */
 
 .tp-1 {
   color: #000;
@@ -21,13 +21,33 @@ html {
   font-size: 23px;
   line-height: 30px;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-top: 100px;
   text-align: center;
 }
 
 .tp-2-span {
   font-weight: bold;
+}
+
+.tp-3 {
+  color: #707070;
+  font-family: TimesNewRomanPS;
+  font-size: 25px;
+  text-align: center;
+}
+
+.signature {
+  background: url('./../images/Signature.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 130px;
+  float: right;
+  margin-bottom: 50px;
+  margin-right: 430px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
