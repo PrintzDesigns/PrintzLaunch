@@ -1,0 +1,263 @@
+.fa-social {
+  height: 16px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 16px;
+}
+
+.design-guides {
+  margin: 0 auto;
+}
+
+.design-title {
+  margin: 0 auto;
+}
+
+.p-1 {
+  color: #000;
+  font-family: TimesNewRomanPS;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 700px;
+  margin-top: 170px;
+  /* text-align: center; */
+}
+
+.splat {
+  background: url('./../images/splatterImage.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  float: right;
+  height: 160px;
+  margin: 0 auto;
+  margin-right: 190px;
+  margin-top: -60px;
+  width: 130px;
+}
+
+.guides {
+  margin: auto;
+  margin-bottom: 200px;
+  margin-left: 190.2px;
+  margin-top: 100px;
+}
+
+.each-guide {
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.p-2 {
+  color: #000;
+  font-family: Avenir-Black, sans-serif;
+  font-size: 18px;
+}
+
+.p-3 {
+  color: #000;
+  float: left;
+  font-family: Avenir-Book, sans-serif;
+  font-size: 14px;
+}
+
+.b-1 {
+  background: url('./../images/download-button.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35px;
+  margin-left: 50px;
+  width: 105px;
+}
+
+.bb-1 {
+  background: url('./../images/download-button.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+  height: 35px;
+  margin-right: 60px;
+  margin-top: 0px;
+  width: 105px;
+}
+
+/* Footer CSS */
+.footer-logo {
+  height: 27px;
+  width: 100px;
+}
+
+.footer-link {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-item {
+  flex-basis: 0;
+  flex-grow: 1;
+  height: 150px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-container {
+  background-color: #F7F7F7;
+  display: flex;
+  height: 200px;
+  width: 100%;
+}
+
+.p-4 {
+  color: #000;
+  display: inline;
+  font-family: Avenir;
+  font-size: 10px;
+  margin-left: 115px;
+  text-align: left;
+}
+
+.p-5 {
+  color: #000;
+  font-family: Avenir;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 115px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.h-4 {
+  font-family: 'HELVETICA NEUE', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.social-footer {
+  margin-left: 85px;
+  margin-top: 40px;
+}
+
+.fa-social-footer {
+  height: 15px;
+  margin-left: 20px;
+  width: 15px;
+}
+
+.m-1 {
+  color: #707070;
+  font-family: 'HELVETICA NEUE', sans-serif;
+  font-size: 14px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.m-2 {
+  color: #000;
+  font-family: 'HELVETICA NEUE', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.b-2 {
+  background-color: #000;
+  color: #fff;
+  font-family: 'HELVETICA NEUE', sans-serif;
+  font-size: 12px;
+  height: 35px;
+  margin-left: 78px;
+  margin-top: 10px;
+  text-align: center;
+  width: 350px;
+}
+
+.modal-content {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  height: 320px;
+  justify-content: center;
+  text-align: center;
+  width: 550px;
+}
+
+.email {
+  color: #000;
+  font-family: 'HELVETICA NEUE', sans-serif;
+  height: 35px;
+  margin-top: 15px;
+  width: 350px;
+}
+
+.m-3 {
+  color: #000;
+  display: inline-block;
+  font-family: 'HELVETICA NEUE', sans-serif;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .p-1 {
+    font-size: 20px;
+    margin-left: 150px;
+    width: 200px;
+  }
+
+  .splat {
+    height: 140px;
+    margin-right: 20px;
+    width: 70px;
+  }
+
+  .p-2 {
+    font-size: 14px;
+    margin-left: -150px;
+  }
+
+  .p-3 {
+    font-size: 12px;
+    margin-left: -150px;
+  }
+
+  .b-1 {
+    margin-top: 15px;
+  }
+
+  .modal-content {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .p-1 {
+    font-size: 20px;
+    margin-left: 150px;
+    width: 200px;
+  }
+
+  .splat {
+    height: 140px;
+    margin-right: 20px;
+    width: 70px;
+  }
+
+  .p-2 {
+    font-size: 14px;
+    margin-left: -150px;
+  }
+
+  .p-3 {
+    font-size: 12px;
+    margin-left: -150px;
+  }
+
+  .b-1 {
+    margin-top: 15px;
+  }
+
+  .modal-content {
+    width: 400px;
+  }
+}
