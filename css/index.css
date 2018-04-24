@@ -1,7 +1,8 @@
 .titlelogo {
   height: 50px;
   margin-top: 35px;
-  width: 184px;
+  padding-left: 20px;
+  width: 240px;
 }
 
 .homepage-logo {
@@ -146,7 +147,7 @@
   flex-wrap: wrap;
   height: 250px;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .foot {
