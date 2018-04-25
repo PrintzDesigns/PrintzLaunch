@@ -59,4 +59,13 @@
     font-size: 15px;
     width: 270px;
   }
+
+  .tp-3 {
+    font-size: 20px;
+  }
+
+  .signature {
+    float: left;
+    margin-left: 230px;
+  }
 }

@@ -188,6 +188,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+  body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .p-1 {
     font-size: 20px;
     margin-left: 150px;
@@ -224,6 +230,12 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+  body, html {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .p-1 {
     font-size: 20px;
     margin-left: 150px;
@@ -259,6 +271,11 @@
     and (device-width : 375px)
     and (device-height : 812px)
     and (-webkit-device-pixel-ratio : 3) {
+
+      html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+      }
       .p-1 {
         font-size: 20px;
         margin-left: 150px;
@@ -283,6 +300,10 @@
 
       .b-1 {
         margin-top: 15px;
+      }
+
+      .bb-1 {
+        margin-left: 50px;
       }
 
       .modal-content {
