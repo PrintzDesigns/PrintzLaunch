@@ -4284,7 +4284,8 @@ footer #newsletter .form-control {
 
   .navbar-nav {
     padding-left: 0;
-    /* float: right; */
+    float: right;
+    display: inline-flex;
   }
 
   .navbar-nav > li > a {
