@@ -4284,6 +4284,7 @@ footer #newsletter .form-control {
 
   .navbar-nav {
     padding-left: 0;
+    /* float: right; */
   }
 
   .navbar-nav > li > a {
@@ -4902,4 +4903,3 @@ footer #newsletter .form-control {
   background-size: cover;
   background-position: center;
 }
-
